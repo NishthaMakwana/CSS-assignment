@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clip project | css</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            max-width: 1500px;
+            background-color: black;
+            clip-path: polygon(54% 87%, 100% 61%, 100% 0, 0 0, 0 59%);
+            padding: 10px 50px;
+            background: url(https://images.hdqwalls.com/wallpapers/bthumb/mountains-range-with-a-moon-in-the-sky-xh.jpg);
+            background-size: cover;
+            color: white;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        header{
+            width: 100%;
+            text-align: right;
+        }
+        .main nav a {
+            text-decoration: none; 
+            color: white;
+            font-size: 15px;
+            padding-left: 2%;
+            text-transform: uppercase;
+        }
+        .logo {
+            font-size: 20px;
+            text-align: left;
+            padding-top: 10px;
+        }
+        .center {
+            padding: 30px 0;
+            width: 100%;
+            text-align: center;
+        }
+        .center input{
+            border: none;
+            text-transform: capitalize;
+            padding: 5px 50px;
+            background-color: orangered;
+            color: white;
+            margin-bottom: 200px;
+        }
+        .icon{
+         font-size: 50px;
+            color: yellow;
+            display: flex;
+            gap: 90%;
+            position: relative;
+            left: 20px;
+        }
+        #left {
+            padding: 5px 5px;
+            background-color: tomato;
+        }
+        #right {
+            padding: 5px 5px;
+            background-color: tomato;
+        }
+        .center p {
+           width: 50%;
+           padding: 30px 0;
+           margin: 0% 300px;
+        }
+        .down {
+            
+            color: red;
+            font-size: 25px;
+            border: none;
+            position: absolute;
+            top: 95%;
+            right: 0%;
+            left: 52%;
+            bottom: 0%;
+        }
+        .sleek{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+        }
+        .design{
+            width: 20%;
+            padding: 10px;
+        }
+        .box1{
+            width: 35px;
+            height: 35px;
+            border: 1px solid black;
+            padding: 7px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .box{
+            width: 35px;
+            height: 35px;
+            border: 1px solid black;
+            padding: 7px;
+        }
+        .box p{
+            font-size: 15px;
+            padding: 10px 0;
+            text-align: justify;
+        }
+        .box1 p{
+            font-size: 15px;
+            padding: 10px 0;
+            text-align: justify;
+            line-height: 20px;
+        }
+      
+      
+    </style>
+</head>
+<body>
+    <div class="main">
+        <header>
+        <div class="logo">
+            <h1>NS</h1>
+        </div>
+        <nav>
+            <a href="">Home</a>
+            <a href="">about us</a>
+            <a href="">portfolio</a>
+            <a href="">pricing</a>
+            <a href="">team</a>
+            <a href="">blog</a>
+            <a href="">contact</a>
+        </nav>
+        </header>
+        <div class="center">
+            <p>Lorem ipsum dolor sit amet our newmw </p>
+            <h1>WELCOME TO SKY</h1>
+            <P>__________*___________</P>
+            <div class="icon">
+                <i class="fa-solid fa-chevron-left" id="left" ></i>
+                <i class="fa-solid fa-chevron-right" id="right" ></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis culpa doloribus animi atque quia, nemo fugit veritatis iusto voluptates repellendus.</p>
+            <input type="button" value="get started now">
+            <input type="button" value="learn more">
+        </div>
+    </div>
+    <div class="down circle">
+        <i class="fa-solid  fa-arrow-down-long" style="padding: 10px 15px; border-radius: 40%; background-color: white;" ></i>            
+    </div>
+    <div class="sleek">
+        <div class="design">
+            <div class="box">
+                <i class="fa-solid fa-infinity"></i>
+            </div>
+            <strong>Sleek Design</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate ex iure soluta tempore atque, impedit amet aliquam! Necessitatibus, expedita.</p>
+        </div>
+            
+        <div class="design">
+            <div class="box1">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <strong>Clean code</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate ex iure soluta tempore atque, impedit amet aliquam! Necessitatibus, expedita.</p>
+        </div>
+        <div class="design">
+            <div class="box1">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <strong>creative ideas</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate ex iure soluta tempore atque, impedit amet aliquam! Necessitatibus, expedita.</p>
+        </div>
+        <div class="design">
+            <div class="box1">
+                <i class="fa-solid fa-image"></i>
+            </div>
+            <strong>Free support</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate ex iure soluta tempore atque, impedit amet aliquam! Necessitatibus, expedita.</p>
+        </div>
+
+
+        
+        
+    </div>
+</body>
+</html>

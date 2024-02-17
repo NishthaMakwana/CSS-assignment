@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar task | css</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .contain{
+            width: 100%;
+            background-color: rgb(26, 25, 25);
+            display: flex;
+            color: white;
+        }
+        .left h2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 20px 0;
+            color: orangered;
+            font-size: 30px;
+            font-weight: 700;
+            text-transform: capitalize;
+        }
+        .left {
+            width: 50%;
+            text-align: right;
+        }
+        .right{
+            width: 50%;
+            background: url(https://img.freepik.com/free-photo/tablet-modern-technology-wooden-desk-indoors-generative-ai_188544-19434.jpg?w=826&t=st=1706605128~exp=1706605728~hmac=740c3cdef688dfdbf8bfce4e5e30fa56c509f8c3da38280734fc5626dc250b20);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .box1 {
+            margin: 70px;
+        }
+        .box1 p {
+            text-transform: capitalize;
+            font-family: arial;
+            font-size: 10px;
+        }
+        .box1 strong {
+            color: red;
+            font-family: arial;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .right img {
+            width: 100%;
+            height: inherit;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .icon{
+            position: relative;
+        }
+        .icon #home{
+            width: 50px;
+            position: absolute;
+            top: 140px;
+            border-radius: 25px;
+            padding: 17px;
+            background-color: rgb(128, 145, 144);
+            left: -20px;
+        }
+        .icon #printer{
+            width: 50px;
+            position: absolute;
+            top: 250px;
+            left: -20px;
+            border-radius: 25px;
+            padding: 17px;
+            background-color: rgb(128, 145, 144);
+         
+        }
+        .icon #img{
+            width: 50px;
+            position: absolute;
+            top: 350px;
+            left: -20px;
+            border-radius: 25px;
+            padding: 17px;
+            background-color:rgb(128, 145, 144);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="left">
+            <div class="box1">
+            <h2>our service</h2>
+            <strong>web designing</strong>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, adipisci voluptatibus.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="box1">
+            <strong>print design</strong>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, adipisci voluptatibus.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="box1">
+            <strong>photography</strong>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, adipisci voluptatibus.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="icon">
+            <i class="fa-solid fa-house" id="home"></i>
+            <i class="fa-solid fa-print" id="printer"></i>
+            <i class="fa-solid fa-image" id="img"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
